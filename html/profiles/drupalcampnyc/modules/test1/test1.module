@@ -15,7 +15,7 @@ function test1_menu() {
 
 
 function test1_myfunction() {
-  $output = "<p>this is a test function</p>";
+  $output = "<p>this is a test function 1</p>";
 
   return $output;
 }
