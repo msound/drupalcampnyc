@@ -1,0 +1,22 @@
+<?php
+
+function test1_menu() {
+  $items = array();
+
+  $items['test1'] = array(
+    'title' => 'test1',
+    'page callback' => 'test1_myfunction',
+    'access arguments' => array('access content'),
+    'type' => MENU_CALLBACK,
+  );
+
+  return $items;
+}
+
+
+function test1_myfunction() {
+  $output = "<p>this is a test function</p>";
+
+  return $output;
+}
+

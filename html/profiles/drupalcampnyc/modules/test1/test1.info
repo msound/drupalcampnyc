@@ -1,0 +1,4 @@
+name=Test1
+description=Test1 module
+core=7.x
+package=Other
