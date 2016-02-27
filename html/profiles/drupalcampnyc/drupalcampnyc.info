@@ -32,3 +32,6 @@ dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = update
 dependencies[] = user
+
+; Custom
+dependencies[] = test1
